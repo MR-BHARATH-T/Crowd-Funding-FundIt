@@ -1,0 +1,248 @@
+/* General Container for Campaign Details */
+/* .campaign-details {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+   */
+  /* Campaign Title */
+  /* .campaign-details h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  } */
+  
+  /* Campaign Image */
+  /* .campaign-details img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  } */
+  
+  /* Campaign Description */
+  /* .campaign-details p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  } */
+  
+  /* Campaign Metrics (Goal, Raised, Supporters) */
+  /* .campaign-metrics {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  } */
+  
+  /* .campaign-metrics p {
+    font-size: 1.2rem;
+    color: #444;
+  } */
+  
+  /* .campaign-metrics p strong {
+    color: #007bff;
+  } */
+  
+  /* Call-to-Action Buttons */
+  /* .cta-buttons {
+    display: flex;
+    justify-content: space-between;
+  } */
+  
+  /* .cta-buttons button {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-buttons .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .cta-buttons .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .cta-buttons .btn-secondary {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .cta-buttons .btn-secondary:hover {
+    background-color: #218838;
+  } */
+  
+  /* Responsive Design */
+  /* @media (max-width: 768px) {
+    .campaign-metrics {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .cta-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .cta-buttons button {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  
+    .campaign-details h1 {
+      font-size: 2rem;
+      text-align: center;
+    }
+  } */
+
+  
+
+/* Campaign Details Container */
+.campaign-details {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Campaign Image */
+.campaign-image-container {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.campaign-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.campaign-image-container:hover .campaign-image {
+  transform: scale(1.05);
+}
+
+/* Campaign Content */
+.campaign-content {
+  padding: 20px;
+}
+
+.campaign-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.campaign-description {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Progress Bar */
+.progress-container {
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  border-radius: 5px;
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Campaign Metrics */
+.campaign-metrics {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.metric {
+  text-align: center;
+}
+
+.metric-label {
+  font-size: 0.9rem;
+  color: #666;
+  display: block;
+}
+
+.metric-value {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+/* CTA Buttons */
+.cta-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #2575fc, #6a11cb);
+}
+
+.btn-secondary {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background: #e0e0e0;
+}
+
+/* Loading State */
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 50px;
+}

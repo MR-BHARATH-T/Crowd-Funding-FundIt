@@ -1,0 +1,114 @@
+/* ======= Footer Global Styles ======= */
+.footer {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 20px 20px 0 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* ======= Newsletter Section ======= */
+  .newsletter-section {
+    margin-bottom: 30px;
+  }
+  
+  .newsletter-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .newsletter-input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  .newsletter-button {
+    background: white;
+    color: #6e8efb;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .newsletter-button:hover {
+    background: #ddd;
+  }
+  
+  .subscribe-message {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #ffd700;
+  }
+  
+  /* ======= Footer Links & Social Media ======= */
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links h4,
+  .social-media h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #ffd700;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    font-size: 1.5rem;
+    color: white;
+    transition: transform 0.3s;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+    color: #ffd700;
+  }
+  
+  /* ======= Copyright Section ======= */
+  .copyright-section {
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  
